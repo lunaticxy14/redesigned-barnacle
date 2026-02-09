@@ -1,0 +1,175 @@
+.groupgeneratenumber {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0 5px 0;
+    margin: 5px auto 0 auto;
+    border-top: var(--border-primary);
+}
+
+span.textgeneratenumber {
+    color: var(--text-primary);
+    font-size: 11px;
+}
+
+span.tombolgeneratenumber {
+    width: 100%;
+    padding: 10px;
+    background: var(--button-deposit);
+    box-shadow: 0 3px 5px #0000004d, inset 0 1px #ffffff70;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.groupfiturgenerator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #00000096;
+    box-shadow: 0 5px 7px #00000075, inset 0 1px #ffffff38;
+    width: 100%;
+    height: 100dvh;
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.groupfiturgenerator.active {
+    display: flex;
+}
+
+.contentfiturgenerator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--sidenav-background);
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    position: relative;
+    overflow: unset;
+}
+
+span.titlefiturgenerator {
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: var(--border-primary);
+}
+
+.groupnumberrandom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.listnumberbola {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #E16910;
+}
+
+.listnumberbola[data-bola="0"] {
+    background: url(https://indoor.b-cdn.net/IMAGE/OTHER/ball/0-ball.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.listnumberbola[data-bola="1"] {
+    background: url(https://indoor.b-cdn.net/IMAGE/OTHER/ball/1-ball.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.listnumberbola[data-bola="2"] {
+    background: url(https://indoor.b-cdn.net/IMAGE/OTHER/ball/2-ball.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.listnumberbola[data-bola="3"] {
+    background: url(https://indoor.b-cdn.net/IMAGE/OTHER/ball/3-ball.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.listnumberbola[data-bola="4"] {
+    background: url(https://indoor.b-cdn.net/IMAGE/OTHER/ball/4-ball.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.listnumberbola[data-bola="5"] {
+    background: url(https://indoor.b-cdn.net/IMAGE/OTHER/ball/5-ball.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.listnumberbola[data-bola="6"] {
+    background: url(https://indoor.b-cdn.net/IMAGE/OTHER/ball/6-ball.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.listnumberbola[data-bola="7"] {
+    background: url(https://indoor.b-cdn.net/IMAGE/OTHER/ball/7-ball.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.listnumberbola[data-bola="8"] {
+    background: url(https://indoor.b-cdn.net/IMAGE/OTHER/ball/8-ball.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.listnumberbola[data-bola="9"] {
+    background: url(https://indoor.b-cdn.net/IMAGE/OTHER/ball/9-ball.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+span.spingenerate {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    background: var(--button-deposit);
+}
+
+span.tombolclosegenerator {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
